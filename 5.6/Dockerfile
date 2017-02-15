@@ -1,9 +1,9 @@
 FROM centos/s2i-base-centos7
 
-# This image provides an Apache+PHP environment for running PHP
+# This image provides an Nginx+PHP environment for running PHP
 # applications.
 
-MAINTAINER SoftwareCollections.org <sclorg@redhat.com>
+MAINTAINER Atos 
 
 EXPOSE 8080
 
