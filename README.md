@@ -65,7 +65,7 @@ https://getcomposer.org/doc/00-intro.md
 
 
 
-
+http://stackoverflow.com/questions/38256278/nginx-configuration-for-cakephp3-on-openshift
 
 
 
