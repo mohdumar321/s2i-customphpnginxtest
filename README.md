@@ -1,3 +1,119 @@
+
+UMAR DOCUMENTATION
+
+
+
+BUILDS
+The OpenShift Container Platform build system provides extensible support for build strategies that are based on selectable types specified in the build API. There are three primary build strategies available:
+•	Docker build
+•	Source-to-Image (S2I) build
+•	Custom build
+By default, Docker builds and S2I builds are supported.
+The resulting object of a build depends on the builder used to create it. For Docker and S2I builds, the resulting objects are runnable images. For Custom builds, the resulting objects are whatever the builder image author has specified.
+Docker Build
+The Docker build strategy invokes the docker build command, and it therefore expects a repository with a Dockerfile and all required artifacts in it to produce a runnable image.
+Source-to-Image (S2I) Build
+Source-to-Image (S2I) is a tool for building reproducible, Docker-formatted container images. It produces ready-to-run images by injecting application source into a container image and assembling a new image. The new image incorporates the base image (the builder) and built source and is ready to use with the docker run command. 
+
+https://blog.openshift.com/create-s2i-builder-image/
+
+https://docs.openshift.org/latest/creating_images/guidelines.html
+Custom Build
+The Custom build strategy allows developers to define a specific builder image responsible for the entire build process. Using your own builder image allows you to customize your build process.
+A Custom builder image is a plain Docker-formatted container image embedded with build process logic, for example for building RPMs or base images.
+https://docs.openshift.com/container-platform/3.3/architecture/core_concepts/builds_and_image_streams.html#source-build
+
+centos-release-scl-rh
+https://www.softwarecollections.org/en/scls/?page=3
+bcrypt is a password hashing function 
+MKDIR -P
+https://linux.die.net/man/1/mkdir
+
+https://ss64.com/bash/chmod.html
+
+The CentOSPlus repository contains a group of packages, all of which are updates. You probably do not want to enable CentOSPlus as a whole, but instead want to pick the exact packages that you want to use.
+RPM command is used for installing, uninstalling, upgrading, querying, listing, and checking RPM packages on your Linux system.
+RPM stands for Red Hat Package Manager.
+With root privilege, you can use the rpm command with appropriate options to manage the RPM software packages.
+
+
+http://superuser.com/questions/62141/how-to-move-all-files-from-current-directory-to-upper-directory
+
+https://getcomposer.org/doc/00-intro.md
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 PHP Docker images
 =================
 
